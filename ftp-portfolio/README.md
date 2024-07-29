@@ -4,9 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```
-git clone 
-cd FusionPulseTech-portfolio/ftp-portfolio
+```bash
+git clone https://github.com/FusionPulseTech/FusionPulseTech-portfolio.git
+cd FusionPulseTech-portfolio/fpt-portfolio
 npm install
 npm run dev
 # or
