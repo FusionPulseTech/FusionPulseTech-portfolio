@@ -5,7 +5,7 @@ import { LiaVectorSquareSolid } from "react-icons/lia";
 const Skills = () => {
   return (
     <>
-      <section className="text-gray-600 body-font overflow-hidden bg-[#F5F5F5]">
+      <section className="text-gray-800 body-font overflow-hidden bg-[#F5F5F5]">
         <div className="container px-5 py-24 mx-auto max-w-7xl">
           <div className="mx-auto flex items-center flex-wrap">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">

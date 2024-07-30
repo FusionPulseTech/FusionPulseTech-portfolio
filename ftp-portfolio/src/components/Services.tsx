@@ -6,7 +6,7 @@ import Image from "next/image";
 const Services = () => {
   return (
     <>
-      <section id="services" className="text-gray-900 body-font bg-[#F0F4FF]">
+      <section id="services" className="text-gray-800 body-font bg-[#F0F4FF]">
         <div className="container py-24 mx-auto max-w-7xl px-5 lg:px-0">
           <div className=" flex flex-col sm:flex-row sm:items-center items-start justify-between mx-auto px-0 lg:px-5">
             <div>
