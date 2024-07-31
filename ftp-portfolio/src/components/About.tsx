@@ -9,7 +9,7 @@ const About = () => {
     <>
       <section
         id="aboutus"
-        className="text-gray-900 bg-[#F5F5F5] body-font overflow-hidden"
+        className="text-gray-800 bg-[#F5F5F5] body-font overflow-hidden"
       >
         <div className="container px-5 py-24 mx-auto max-w-7xl">
           <div className="mx-auto flex items-center flex-wrap">
@@ -23,30 +23,40 @@ const About = () => {
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <p className="leading-relaxed text-xl text-[#684DF4]">
                 <LiaVectorSquareSolid className="text-white bg-[#684DF4] inline-flex text-2xl mr-1" />{" "}
-                ABOUT FUSION PULSE TECH IT SOLUTIONS
+                ABOUT FUSION PULSE TECH
               </p>
-              <h1 className="text-3xl font-bold py-10">
-                Preparing For Your Business Provide Best{" "}
+              <h1 className="text-3xl font-bold py-5">
+                For Your Business We Provide Best <br />
                 <span className="text-[#684DF4] font-medium">IT Solution</span>
               </h1>
+              <p className="leading-relaxed pb-2">
+                At FusionPulse Tech, we specialize in delivering innovative and
+                intuitive e-services tailored to your unique business needs. Our
+                team is dedicated to re-engineering value-added IT systems and
+                creating compelling solutions for various niches.
+              </p>
               <p className="leading-relaxed">
-                Quickly re-engineer intuitive e-services whereas compelling
-                niches. Professionally syndicate strategic e-commerce without
-                covalent leadership skills. Globally customize equity invested
-                imperatives.
+                We combine strategic agile practices with cutting-edge
+                technology to deliver superior results. Our mission is to
+                globally customize and deliver high-quality, equity-invested
+                imperatives that drive your business forward.
               </p>
               <div className="font-semibold space-y-3 py-10 text-sm">
                 <p>
                   <FaCheckSquare className="bg-white text-[#684DF4] inline-flex text-xl mr-1" />{" "}
-                  Dramatically re-engineer value added IT systems via mission
+                  Custom Software Development
                 </p>
                 <p>
                   <FaCheckSquare className="bg-white text-[#684DF4] inline-flex text-xl mr-1" />{" "}
-                  Website & Mobile application design & Development
+                  Website & Mobile Application Design & Development
                 </p>
                 <p>
                   <FaCheckSquare className="bg-white text-[#684DF4] inline-flex text-xl mr-1" />{" "}
-                  Professional User Experince & Interface researching
+                  Professional User Experience & Interface Research
+                </p>
+                <p>
+                  <FaCheckSquare className="bg-white text-[#684DF4] inline-flex text-xl mr-1" />{" "}
+                  Maintenance and Domain-Hosting Support
                 </p>
               </div>
               <div className="flex">
