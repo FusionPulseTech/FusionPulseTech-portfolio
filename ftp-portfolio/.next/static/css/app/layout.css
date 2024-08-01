@@ -1493,10 +1493,6 @@ video {
     margin-top: 0px;
   }
 
-  .md\:inline {
-    display: inline;
-  }
-
   .md\:h-36 {
     height: 9rem;
   }
@@ -1576,10 +1572,6 @@ video {
 
   .lg\:block {
     display: block;
-  }
-
-  .lg\:hidden {
-    display: none;
   }
 
   .lg\:h-48 {
