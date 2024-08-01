@@ -6,7 +6,6 @@ import {
   FaLinkedinIn,
   FaWhatsapp,
   FaYoutube,
-  FaCalendarAlt,
 } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 
@@ -65,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div className="flex-grow flex justify-end flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/2 md:w-1/2 w-full px-4">
               <span className="title-font font-medium tracking-widest text-2xl mb-3 border-b-4 border-[#684DF4]">
                 QUICK LINKS
@@ -113,53 +112,7 @@ const Footer = () => {
                 </li>
               </div>
             </div>
-            {/* <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium tracking-widest text-xl mb-3 border-b-2 border-[#684DF4]">
-                IT SERVICES
-              </h2>
-              <div className="list-none mb-10 leading-10">
-                <li>
-                  <Link
-                    href="#"
-                    className="hover:text-[#684DF4] transition-colors duration-300"
-                  >
-                    Web Development
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="hover:text-[#684DF4] transition-colors duration-300"
-                  >
-                    Business Development
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="hover:text-[#684DF4] transition-colors duration-300"
-                  >
-                    Product Management
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="hover:text-[#684DF4] transition-colors duration-300"
-                  >
-                    UI/UX Design
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="hover:text-[#684DF4] transition-colors duration-300"
-                  >
-                    Cloud services
-                  </Link>
-                </li>
-              </div>
-            </div> */}
+            
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <span className="title-font font-medium tracking-widest text-xl mb-3 border-b-4 border-[#684DF4]">
                 GET IN TOUCH!
@@ -177,12 +130,11 @@ const Footer = () => {
                     className="w-full h-10 px-3 text-sm text-gray-700 border border-r-0 rounded-r-none border-blue-500 focus:outline-none rounded shadow-sm"
                     placeholder="user@mail.com"
                   />
-                  <button className="h-10 px-4 text-sm bg-[#684DF4] border border-l-0 border-[#684DF4] rounded-r shadow-sm text-blue-50 hover:text-white hover:bg-gray-700 hover:border-gray-700 focus:outline-none">
+                  <button className="h-10 px-4 text-sm bg-[#684DF4] border border-l-0 border-[#684DF4] rounded-r shadow-sm text-blue-50 hover:text-white hover:bg-gray-800 hover:border-gray-800 transition-colors duration-300 focus:outline-none">
                     <SiMinutemailer className="w-5 h-5"/>
                   </button>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
