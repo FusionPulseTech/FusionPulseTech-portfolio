@@ -53,12 +53,13 @@ const Hero = () => {
               digital age.
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-              <a
-                href="#"
+              <Link
+                href="https://calendly.com/anamul-ice14"
                 className="px-8 py-3 mr-4 text-lg font-medium rounded bg-[#684DF4] text-white hover:bg-gray-900 transition-colors duration-700"
+                target="_blank"
               >
                 MAKE SCHEDULE
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex items-center justify-center py-6 lg:py-5 my-12 lg:my-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
