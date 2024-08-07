@@ -10,31 +10,19 @@ const Hero = () => {
         <div className="rotate-180 [writing-mode:_vertical-lr] p-5 hidden lg:block">
           <div className="text-sm font-medium">
             <Link
-              href="#"
-              className="hover:text-[#684DF4] transition-colors duration-300"
-            >
-              FACEBOOK{" "}
-              <IoIosSquare className="text-[#684DF4] inline-flex my-3 mr-2" />
-            </Link>
-            <Link
-              href="#"
-              className="hover:text-[#684DF4] transition-colors duration-300"
-            >
-              TWITTER{" "}
-              <IoIosSquare className="text-[#684DF4] inline-flex my-3 mr-2" />
-            </Link>
-            <Link
-              href="#"
-              className="hover:text-[#684DF4] transition-colors duration-300"
-            >
-              INSTAGRAM{" "}
-              <IoIosSquare className="text-[#684DF4] inline-flex my-3 mr-2" />
-            </Link>
-            <Link
-              href="#"
+              href="https://www.linkedin.com/company/fusionpulse-tech/"
+              target="_blank"
               className="hover:text-[#684DF4] transition-colors duration-300"
             >
               LINKEDIN{" "}
+              <IoIosSquare className="text-[#684DF4] inline-flex my-3 mr-2" />
+            </Link>
+            <Link
+              href="https://github.com/FusionPulseTech"
+              target="_blank"
+              className="hover:text-[#684DF4] transition-colors duration-300"
+            >
+              GITHUB{" "}
             </Link>
           </div>
         </div>
