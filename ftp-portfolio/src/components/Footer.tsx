@@ -2,13 +2,12 @@ import Link from "next/link";
 import React from "react";
 import {
   FaFacebook,
-  FaTwitter,
+  FaGithub,
   FaLinkedinIn,
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
-
 
 const Footer = () => {
   return (
@@ -17,7 +16,9 @@ const Footer = () => {
         <div className="container px-5 py-24 mx-auto max-w-7xl flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-72 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center">
-              <span className="text-2xl border-b-4 border-[#684DF4]">ABOUT COMPANY</span>
+              <span className="text-2xl border-b-4 border-[#684DF4]">
+                ABOUT COMPANY
+              </span>
             </a>
             <p className="mt-2 text-md text-gray-500 leading-relaxed pt-5">
               Professionally redefine transparent ROI through low-risk
@@ -26,41 +27,22 @@ const Footer = () => {
             </p>
             <div className="flex flex-col justify-center pt-5 lg:pt-2">
               <div className="flex justify-center lg:justify-start space-x-4 pt-5">
-                <a
-                  href="#"
-                  title="Facebook"
-                  className="flex items-center justify-center border hover:bg-[#684DF4] transition-colors duration-300 w-8 h-8 rounded-full sm:w-10 sm:h-10 text-gray-50"
-                >
-                  <FaFacebook />
-                </a>
-                <a
-                  href="#"
-                  title="Twitter"
-                  className="flex items-center justify-center border hover:bg-[#684DF4] transition-colors duration-300 w-8 h-8 rounded-full sm:w-10 sm:h-10 text-gray-50"
-                >
-                  <FaTwitter />
-                </a>
-                <a
-                  href="#"
+                <Link
+                  href="https://www.linkedin.com/company/fusionpulse-tech/"
+                  target="_blank"
                   title="LinkedIn"
                   className="flex items-center justify-center border hover:bg-[#684DF4] transition-colors duration-300 w-8 h-8 rounded-full sm:w-10 sm:h-10 text-gray-50"
                 >
                   <FaLinkedinIn />
-                </a>
-                <a
-                  href="#"
-                  title="Whatsapp"
+                </Link>
+                <Link
+                  href="https://github.com/FusionPulseTech"
+                  target="_blank"
+                  title="Github"
                   className="flex items-center justify-center border hover:bg-[#684DF4] transition-colors duration-300 w-8 h-8 rounded-full sm:w-10 sm:h-10 text-gray-50"
                 >
-                  <FaWhatsapp />
-                </a>
-                <a
-                  href="#"
-                  title="Youtube"
-                  className="flex items-center justify-center border hover:bg-[#684DF4] transition-colors duration-300 w-8 h-8 rounded-full sm:w-10 sm:h-10 text-gray-50"
-                >
-                  <FaYoutube />
-                </a>
+                  <FaGithub />
+                </Link>
               </div>
             </div>
           </div>
@@ -112,7 +94,7 @@ const Footer = () => {
                 </li>
               </div>
             </div>
-            
+
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <span className="title-font font-medium tracking-widest text-xl mb-3 border-b-4 border-[#684DF4]">
                 GET IN TOUCH!
@@ -131,7 +113,7 @@ const Footer = () => {
                     placeholder="user@mail.com"
                   />
                   <button className="h-10 px-4 text-sm bg-[#684DF4] border border-l-0 border-[#684DF4] rounded-r shadow-sm text-blue-50 hover:text-white hover:bg-gray-800 hover:border-gray-800 transition-colors duration-300 focus:outline-none">
-                    <SiMinutemailer className="w-5 h-5"/>
+                    <SiMinutemailer className="w-5 h-5" />
                   </button>
                 </div>
               </div>

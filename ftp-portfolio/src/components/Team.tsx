@@ -14,7 +14,8 @@ const Team = () => {
       role: 'Flutter Developer',
       email: 'hasnainrabby@gmail.com',
       linkedin: 'https://www.linkedin.com/in/md-hasnain-rabby-37b16a102/',
-      github: 'https://github.com/hasnainrabby'
+      github: 'https://github.com/hasnainrabby',
+      img: 'https://i.ibb.co/ZWNYgPF/Hasnain.png'
     },
     { 
       id:2,
@@ -22,7 +23,8 @@ const Team = () => {
       role: 'Software Engineer',
       email: 'anamul.ice14@gmail.com',
       linkedin: 'www.linkedin.com/in/md-anamul-haque94',
-      github: 'https://github.com/anamul94'
+      github: 'https://github.com/anamul94',
+      img: 'https://i.ibb.co/TBHWXLs/anmul.jpg'
     },
     { 
       id:3,
@@ -30,7 +32,8 @@ const Team = () => {
       role: 'Software Developer',
       email: 'rakibsobuz@gmail.com',
       linkedin: 'https://www.linkedin.com/in/rakib-hasan-4a2836185/',
-      github: 'https://github.com/rakibhasan421'
+      github: 'https://github.com/rakibhasan421',
+      img: 'https://i.ibb.co/gDHtKfD/Rakib-Hasan.jpg'
     },
     { 
       id:4,
@@ -38,7 +41,8 @@ const Team = () => {
       role: 'Frontend Developer',
       email: 'chanchal.mch2613@gmail.com',
       linkedin: 'https://www.linkedin.com/in/md-chanchal-hossain',
-      github: 'https://github.com/chanchal26'
+      github: 'https://github.com/chanchal26',
+      img: 'https://i.ibb.co/VBBTxdt/chanchal.png'
     },
     { 
       id:5,
@@ -46,7 +50,8 @@ const Team = () => {
       role: 'Frontend Developer',
       email: 'thenazmulh@gmail.com',
       linkedin: 'https://www.linkedin.com/in/thenazmulh/',
-      github: 'https://github.com/theNazmulH'
+      github: 'https://github.com/theNazmulH',
+      img: 'https://i.ibb.co/bKzGtzS/Nazmul-Hussain.png'
     },
     { 
       id:6,
@@ -54,7 +59,8 @@ const Team = () => {
       role: 'QA & Digital Marketing Executive',
       email: 'mabrahman44@gmail.com',
       linkedin: 'https://www.linkedin.com/md-abdur-rahman-723313248/',
-      github: 'https://github.com/abdurrahmaniu'
+      github: 'https://github.com/abdurrahmaniu',
+      img: 'https://i.ibb.co/YDxCfNX/Md-abdur-rahman-photo.jpg'
     },
     { 
       id:7,
@@ -62,7 +68,8 @@ const Team = () => {
       role: 'Founder',
       email: 'mrraju.ice.iu@gmail.com',
       linkedin: 'https://www.linkedin.com/in/mmr-raju/',
-      github: 'https://github.com/mmrraju'
+      github: 'https://github.com/mmrraju',
+      img: 'https://i.ibb.co/4VsWphJ/Mostafejur-Rahman.png'
     }
   ];
 
@@ -83,7 +90,7 @@ const Team = () => {
             {Data.map(singleData=>
               <div key={singleData.id} className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 bg-white text-gray-800 shadow-lg">
               <Image
-                src="/employee.jpg"
+                src={singleData.img}
                 className="self-center -mt-12 rounded-full aspect-square object-cover"
                 width={100}
                 height={100}
