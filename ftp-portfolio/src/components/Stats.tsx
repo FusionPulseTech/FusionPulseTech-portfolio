@@ -13,7 +13,7 @@ const Stats = () => {
               <FaShoppingCart className="h-9 w-9 text-[#694FF4] hover:rotate-180 duration-300" />
             </div>
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-4xl font-bold leading-none pb-2">200 +</p>
+              <p className="text-4xl font-bold leading-none pb-2">10 +</p>
               <p className="capitalize font-semibold">Orders</p>
             </div>
           </div>
@@ -22,7 +22,7 @@ const Stats = () => {
               <FaRegSmile className="h-9 w-9 text-[#694FF4] hover:rotate-180 duration-300" />
             </div>
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-4xl font-bold leading-none pb-2">7500</p>
+              <p className="text-4xl font-bold leading-none pb-2">5</p>
               <p className="capitalize font-semibold">New customers</p>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Stats = () => {
               <BsSpeedometer className="h-9 w-9 text-[#694FF4] hover:rotate-180 duration-300" />
             </div>
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-4xl font-bold leading-none pb-2">172%</p>
+              <p className="text-4xl font-bold leading-none pb-2">30%</p>
               <p className="capitalize font-semibold">Growth</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Stats = () => {
               <MdTouchApp className="h-9 w-9 text-[#694FF4] hover:rotate-180 duration-300" />
             </div>
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-4xl font-bold leading-none pb-2">17%</p>
+              <p className="text-4xl font-bold leading-none pb-2">15%</p>
               <p className="capitalize font-semibold">Bounce rate</p>
             </div>
           </div>

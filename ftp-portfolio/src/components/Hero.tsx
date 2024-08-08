@@ -10,6 +10,14 @@ const Hero = () => {
         <div className="rotate-180 [writing-mode:_vertical-lr] p-5 hidden lg:block">
           <div className="text-sm font-medium">
             <Link
+              href="https://www.facebook.com/"
+              target="_blank"
+              className="hover:text-[#684DF4] transition-colors duration-300"
+            >
+              FACEBOOK{" "}
+              <IoIosSquare className="text-[#684DF4] inline-flex my-3 mr-2" />
+            </Link>
+            <Link
               href="https://www.linkedin.com/company/fusionpulse-tech/"
               target="_blank"
               className="hover:text-[#684DF4] transition-colors duration-300"
@@ -42,7 +50,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <Link
-                href="https://calendly.com/anamul-ice14"
+                href="https://calendly.com/mrraju-ice-iu/30min"
                 className="px-8 py-3 mr-4 text-lg font-medium rounded bg-[#684DF4] text-white hover:bg-gray-900 transition-colors duration-700"
                 target="_blank"
               >
