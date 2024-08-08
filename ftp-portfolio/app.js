@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 30051;
 
 // Serve the static files from the 'out' directory
-app.use(express.static(path.join(__dirname, "build")));
+app.use(express.static(path.join(__dirname, "out")));
 
 // Fallback to index.html for Single Page Applications (SPA)
 app.get("*", (req, res) => {
