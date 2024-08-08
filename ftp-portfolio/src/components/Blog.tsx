@@ -6,6 +6,8 @@ import { FiMessageCircle } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa6";
 
 const Blog = () => {
+
+
   return (
     <>
       <section id="blog" className="text-gray-700 bg-[#F5F5F5] body-font">

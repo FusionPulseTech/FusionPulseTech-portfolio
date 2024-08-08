@@ -28,6 +28,14 @@ const Footer = () => {
             <div className="flex flex-col justify-center pt-5 lg:pt-2">
               <div className="flex justify-center lg:justify-start space-x-4 pt-5">
                 <Link
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  title="Facebook"
+                  className="flex items-center justify-center border hover:bg-[#684DF4] transition-colors duration-300 w-8 h-8 rounded-full sm:w-10 sm:h-10 text-gray-50"
+                >
+                  <FaFacebook />
+                </Link>
+                <Link
                   href="https://www.linkedin.com/company/fusionpulse-tech/"
                   target="_blank"
                   title="LinkedIn"
@@ -123,12 +131,12 @@ const Footer = () => {
         <div className="bg-[#684DF4] text-white">
           <div className="container mx-auto max-w-7xl py-4 px-5 flex items-center justify-center sm:flex-row">
             <p className="text-sm text-center sm:text-left">
-              Copyright © 2024{" "}
+              Copyright ©2024{" "}
               <Link
                 href="#"
                 className="hover:text-gray-700  transition-colors duration-300"
               >
-                Fusion Pulse Tech
+                FusionPulse Tech
               </Link>
               . All Rights Reserved.
             </p>

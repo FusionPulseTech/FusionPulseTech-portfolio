@@ -3,45 +3,55 @@ import { LiaVectorSquareSolid } from "react-icons/lia";
 import { FaArrowRight } from "react-icons/fa6";
 import Image from "next/image";
 
+
+
 const Services = () => {
+
   const services = [
     {
       id: "1",
       title: "Custom Software Development",
       description:
         "Tailored software solutions designed to meet specific business requirements. Application development for web, mobile, and desktop platforms.",
+        img: "https://i.ibb.co/QP1wJCQ/Custom-Software-Development.jpg"
     },
     {
       id: "2",
       title: "Website Development",
       description:
         "Designing and developing responsive, user-friendly websites.E-commerce solutions and content management systems (CMS).",
+        img: "https://i.ibb.co/HPjtFpF/website-design.jpg"
     },
     {
       id: "3",
       title: "Mobile Application Development",
       description:
         "Development of mobile apps for iOS, Android, and cross-platform solutions. App maintenance and updates.",
+        img: "https://i.ibb.co/qN7mjjS/Mobile-Application-Development.jpg"
     },
     {
       id: "4",
       title: "Software Integration",
       description:
         "Integration of software systems and applications to streamline operations. API development and integration.",
+        img: "https://i.ibb.co/Rb8g1vz/Software-Integration.jpg"
     },
     {
       id: "5",
       title: "User Experience (UX) and User Interface (UI) Design",
       description:
         "Research and design services to enhance user experience. Prototyping and wireframing.",
+        img: "https://i.ibb.co/6mbzN7T/user-experience-interface-design.jpg"
     },
     {
       id: "6",
       title: "Maintenance and Domain-Hosting Support",
       description:
         "Ongoing support and maintenance for software applications. Bug fixes, updates, and feature enhancements.",
+        img: "https://i.ibb.co/94pWVvG/website-hosting.jpg"
     },
   ];
+
   return (
     <>
       <section id="services" className="text-gray-800 body-font bg-[#F0F4FF]">
@@ -79,7 +89,7 @@ const Services = () => {
                     >
                       <div className="flex-shrink-0">
                         <Image
-                          src="/meeting2.jpg"
+                          src={service.img}
                           width={500}
                           height={500}
                           alt="Picture of services card"
