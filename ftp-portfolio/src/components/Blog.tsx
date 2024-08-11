@@ -49,7 +49,7 @@ const Blog = () => {
                     </Link>
                     <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
                       <IoEyeOutline className="w-4 h-4 mr-1" />
-                      1.2K
+                      35
                     </span>
                     <span className="text-gray-400 inline-flex items-center leading-none text-sm">
                       <FiMessageCircle className="w-4 h-4 mr-1" />6
@@ -86,7 +86,7 @@ const Blog = () => {
                     </Link>
                     <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
                       <IoEyeOutline className="w-4 h-4 mr-1" />
-                      1.2K
+                      24
                     </span>
                     <span className="text-gray-400 inline-flex items-center leading-none text-sm">
                       <FiMessageCircle className="w-4 h-4 mr-1" />6
@@ -123,7 +123,7 @@ const Blog = () => {
                     </Link>
                     <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
                       <IoEyeOutline className="w-4 h-4 mr-1" />
-                      1.2K
+                      15
                     </span>
                     <span className="text-gray-400 inline-flex items-center leading-none text-sm">
                       <FiMessageCircle className="w-4 h-4 mr-1" />6
