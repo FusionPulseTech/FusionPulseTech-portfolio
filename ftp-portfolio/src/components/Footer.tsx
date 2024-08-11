@@ -4,8 +4,6 @@ import {
   FaFacebook,
   FaGithub,
   FaLinkedinIn,
-  FaWhatsapp,
-  FaYoutube,
 } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 
@@ -28,7 +26,7 @@ const Footer = () => {
             <div className="flex flex-col justify-center pt-5 lg:pt-2">
               <div className="flex justify-center lg:justify-start space-x-4 pt-5">
                 <Link
-                  href="https://www.facebook.com/"
+                  href=" https://www.facebook.com/profile.php?id=61563866074580"
                   target="_blank"
                   title="Facebook"
                   className="flex items-center justify-center border hover:bg-[#684DF4] transition-colors duration-300 w-8 h-8 rounded-full sm:w-10 sm:h-10 text-gray-50"

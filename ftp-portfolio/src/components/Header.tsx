@@ -62,7 +62,7 @@ const Header = () => {
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
                 <Link
-                  href="#"
+                  href="#home"
                   className="text-gray-700 hover:text-[#684DF4] transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium"
                 >
                   HOME
@@ -109,7 +109,7 @@ const Header = () => {
       >
         <div className="px-2 pt-2 pb-3 space-y-1">
           <Link
-            href="#"
+            href="#home"
             className="text-gray-700 hover:text-[#684DF4] transition-colors duration-300 block px-3 py-2 rounded-md text-base font-medium"
           >
             HOME

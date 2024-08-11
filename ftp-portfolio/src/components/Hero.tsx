@@ -6,11 +6,11 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <>
-      <section className="bg-[#F0F4FF] text-gray-800 flex items-center">
+      <section id="home" className="bg-[#F0F4FF] text-gray-800 flex items-center">
         <div className="rotate-180 [writing-mode:_vertical-lr] p-5 hidden lg:block">
           <div className="text-sm font-medium">
             <Link
-              href="https://www.facebook.com/"
+              href=" https://www.facebook.com/profile.php?id=61563866074580"
               target="_blank"
               className="hover:text-[#684DF4] transition-colors duration-300"
             >
