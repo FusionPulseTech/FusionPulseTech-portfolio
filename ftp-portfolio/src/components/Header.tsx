@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,13 +55,19 @@ const Header = () => {
             </button>
           </div>
           <div className="flex-1 flex items-center justify-center lg:justify-between sm:items-stretch sm:justify-start">
-            <div className="flex-shrink-0">
-              <Link href="#" className="text-gray-700 text-3xl font-bold">
-                FPT
+            <div className="">
+              <Link href="#">
+              <Image
+              src="/Logo.png"
+              className=""
+              width={100}
+              height={100}
+              alt="Logo"
+            />
               </Link>
             </div>
             <div className="hidden sm:block sm:ml-6">
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 pt-3">
                 <Link
                   href="#home"
                   className="text-gray-700 hover:text-[#684DF4] transition-colors duration-300 px-3 py-2 rounded-md text-sm font-medium"

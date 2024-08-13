@@ -75,7 +75,7 @@ const Team = () => {
 
   return (
     <>
-      <section className="py-6 bg-[#F5F5F5] text-gray-700">
+      <section id="team" className="py-6 bg-[#F5F5F5] text-gray-700">
         <div className="container flex flex-col items-center justify-center p-4 mx-auto max-w-7xl sm:p-10">
           <p className="leading-3 text-xl text-[#684DF4]">
             <LiaVectorSquareSolid className="text-white bg-[#684DF4] inline-flex text-2xl mr-1" />{" "}
