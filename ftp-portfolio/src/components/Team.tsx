@@ -70,6 +70,15 @@ const Team = () => {
       linkedin: 'https://www.linkedin.com/in/mmr-raju/',
       github: 'https://github.com/mmrraju',
       img: 'https://i.ibb.co/4VsWphJ/Mostafejur-Rahman.png'
+    },
+    { 
+      id:8,
+      name: 'Mobarak Hosen',
+      role: 'DevOps Engineer',
+      email: 'mh.ice.iu@gmail.com',
+      linkedin: 'https://www.linkedin.com/in/imShakil/',
+      github: 'https://github.com/imShakil',
+      img: 'https://i.ibb.co/MDn8jyv/Mobarak-Hosen-Shakil.jpg'
     }
   ];
 
@@ -91,7 +100,7 @@ const Team = () => {
               <div key={singleData.id} className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 bg-white text-gray-800 shadow-lg">
               <Image
                 src={singleData.img}
-                className="self-center -mt-12 rounded-full aspect-square object-cover"
+                className="self-center -mt-12 rounded-full aspect-square object-cover hover:scale-125 duration-300"
                 width={100}
                 height={100}
                 alt="Picture of Employees"

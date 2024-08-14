@@ -6,11 +6,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "i.ibb.co",
         pathname: "/**",
-      },
+      }
     ],
     unoptimized: true, // Disable image optimization for static export
   },
-  exportTrailingSlash: true,
+  TrailingSlash: true,
   output: "export",
 };
 

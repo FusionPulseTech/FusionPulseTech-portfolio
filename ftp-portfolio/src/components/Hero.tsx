@@ -61,7 +61,7 @@ const Hero = () => {
           <div className="flex items-center justify-center py-6 lg:py-5 my-12 lg:my-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
             <Image
               src="/strategy-development.png"
-              className="drop-shadow-md"
+              className="drop-shadow-md hover:scale-105 duration-300"
               width={500}
               height={500}
               alt="Picture of the author"
