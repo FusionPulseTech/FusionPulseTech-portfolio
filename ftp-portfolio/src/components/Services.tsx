@@ -87,7 +87,7 @@ const Services = () => {
                       key={service.id}
                       className="flex flex-col overflow-hidden rounded-lg shadow-lg"
                     >
-                      <div className="flex-shrink-0">
+                      <div className="flex-shrink-0 overflow-hidden">
                         <Image
                           src={service.img}
                           width={500}

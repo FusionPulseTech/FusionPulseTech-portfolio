@@ -78,7 +78,7 @@ const Skills = () => {
             </div>
             <Image
               src="/vector2.svg"
-              className="drop-shadow-md"
+              className="drop-shadow-md hover:scale-105 duration-300"
               width={600}
               height={500}
               alt="Picture of about vector"
