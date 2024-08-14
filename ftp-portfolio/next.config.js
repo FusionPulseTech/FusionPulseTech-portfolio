@@ -10,7 +10,7 @@ const nextConfig = {
     ],
     unoptimized: true, // Disable image optimization for static export
   },
-  TrailingSlash: true,
+  trailingSlash: true,
   output: "export",
 };
 

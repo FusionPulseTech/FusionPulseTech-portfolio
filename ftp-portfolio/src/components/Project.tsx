@@ -1,26 +1,29 @@
 import React from "react";
 import { LiaVectorSquareSolid } from "react-icons/lia";
 import { FaArrowRight } from "react-icons/fa6";
+import Image from "next/image";
 
 const Project = () => {
-  
   const productList = [
     {
       id: "1",
       title: "Doctor Portfolio Website",
-      description: "Explore comprehensive medical expertise and patient care excellence, showcasing clinical achievements and compassionate healthcare services.",
+      description:
+        "Explore comprehensive medical expertise and patient care excellence, showcasing clinical achievements and compassionate healthcare services.",
       img: "https://i.ibb.co/RjkKfcW/Doctor-portfolio.png",
     },
     {
       id: "2",
       title: "Lawyer Portfolio Website",
-      description: "Discover legal expertise tailored to your needs on a lawyer's portfolio website, highlighting successful case outcomes and client-focused advocacy.",
+      description:
+        "Discover legal expertise tailored to your needs on a lawyer's portfolio website, highlighting successful case outcomes and client-focused advocacy.",
       img: "https://i.ibb.co/XxDTQBP/Lawyear-Portfolio.jpg",
     },
     {
       id: "3",
       title: "Engineer Portfolio Website",
-      description: "Showcasing innovative engineering solutions and technical prowess, an engineer's portfolio website highlights project achievements and a commitment to cutting-edge design and development.",
+      description:
+        "Showcasing innovative engineering solutions and technical prowess, an engineer's portfolio website highlights project achievements and a commitment to cutting-edge design and development.",
       img: "https://i.ibb.co/bQ9cL42/Engineer-Portfolio-Website.png",
     },
   ];
@@ -47,30 +50,33 @@ const Project = () => {
             </button>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 py-10">
-
-            {productList.map((product)=>
-            <div key={product.id} className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
-            <div>
-              <img
-                className="object-center object-cover h-auto w-full"
-                src={product.img}
-                alt="Product Image"
-              />
-            </div>
-            <div className="text-center py-8 sm:py-6">
-              <p className="text-xl text-gray-700 font-bold mb-2">
-                {product.title}
-              </p>
-              <p className="text-base text-gray-400 font-normal">
-                {product.description}
-              </p>
-              <button className=" text-white bg-indigo-500 border-0 mt-3 py-2 px-4 focus:outline-none hover:bg-gray-900 transition-colors duration-700 rounded">
-                VIEW MORE <FaArrowRight className="inline-flex mb-1 ml-1" />
-              </button>
-            </div>
-          </div>
-            )}
-            
+            {productList.map((product) => (
+              <div
+                key={product.id}
+                className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center"
+              >
+                <div className="flex-shrink-0 overflow-hidden">
+                  <Image
+                    src={product.img}
+                    width={500}
+                    height={500}
+                    alt="Picture of product card"
+                    className="hover:scale-110 duration-300"
+                  />
+                </div>
+                <div className="text-center py-8 sm:py-6">
+                  <p className="text-xl text-gray-700 font-bold mb-2">
+                    {product.title}
+                  </p>
+                  <p className="text-base text-gray-400 font-normal">
+                    {product.description}
+                  </p>
+                  <button className=" text-white bg-indigo-500 border-0 mt-3 py-2 px-4 focus:outline-none hover:bg-gray-900 transition-colors duration-700 rounded">
+                    VIEW MORE <FaArrowRight className="inline-flex mb-1 ml-1" />
+                  </button>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
