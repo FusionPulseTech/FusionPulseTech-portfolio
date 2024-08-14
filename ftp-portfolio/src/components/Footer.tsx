@@ -1,10 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import {
-  FaFacebook,
-  FaGithub,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 
 const Footer = () => {
@@ -19,9 +15,9 @@ const Footer = () => {
               </span>
             </a>
             <p className="mt-2 text-md text-gray-500 leading-relaxed pt-5">
-              Professionally redefine transparent ROI through low-risk
-              high-yield imperatives. Progressively create empowered. cost
-              effective users via team driven.
+              Delivering innovative software solutions that drive business
+              growth and efficiency. Our expert team crafts tailored
+              applications to meet your specific needs.
             </p>
             <div className="flex flex-col justify-center pt-5 lg:pt-2">
               <div className="flex justify-center lg:justify-start space-x-4 pt-5">
@@ -60,7 +56,7 @@ const Footer = () => {
               <div className="list-none mb-10 leading-10 pt-5">
                 <li>
                   <Link
-                    href="#"
+                    href="#aboutus"
                     className="hover:text-[#684DF4] transition-colors duration-300"
                   >
                     About Us
@@ -68,7 +64,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="#team"
                     className="hover:text-[#684DF4] transition-colors duration-300"
                   >
                     Meet Our Team
@@ -76,7 +72,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="#projects"
                     className="hover:text-[#684DF4] transition-colors duration-300"
                   >
                     Our Projects
@@ -84,15 +80,15 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="#services"
                     className="hover:text-[#684DF4] transition-colors duration-300"
                   >
-                    Help & FAQs
+                    Services
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="#contact"
                     className="hover:text-[#684DF4] transition-colors duration-300"
                   >
                     Contact Us
