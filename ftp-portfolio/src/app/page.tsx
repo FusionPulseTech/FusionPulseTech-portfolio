@@ -1,17 +1,33 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import About from "@/components/About";
+import Blog from "@/components/Blog";
+import Contact from "@/components/Contact";
+import Hero from "@/components/Hero";
+import Project from "@/components/Project";
+import Services from "@/components/Services";
+import Skills from "@/components/Skills";
+import Stats from "@/components/Stats";
+import Team from "@/components/Team";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-grow p-4">
-        <h1 className="text-2xl font-bold">
-          Welcome to FusionPulseTech IT solutions
-        </h1>
-        <p>This is the home page.</p>
-      </main>
-      <Footer />
-    </div>
+    <>
+      <Hero />
+
+      <About />
+
+      <Stats />
+
+      <Skills />
+
+      <Services />
+
+      <Team />
+
+      <Project />
+
+      <Blog />
+
+      <Contact />
+    </>
   );
 }
