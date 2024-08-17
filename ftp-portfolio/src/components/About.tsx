@@ -15,7 +15,7 @@ const About = () => {
           <div className="mx-auto flex items-center flex-wrap">
             <Image
               src="/vector1.svg"
-              className="drop-shadow-md"
+              className="drop-shadow-md hover:scale-105 duration-300"
               width={600}
               height={500}
               alt="Picture of about vector"

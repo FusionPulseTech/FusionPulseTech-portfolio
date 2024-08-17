@@ -14,14 +14,14 @@ const Skills = () => {
                 GREAT IT SKILLS
               </p>
               <h1 className="text-3xl font-bold py-10">
-                More Than 24+ Years Experience We Provide{" "}
+                Decades of Expertise Delivering Innovative{" "}
                 <span className="text-[#684DF4] font-medium">IT Solution</span>
               </h1>
               <p className="leading-relaxed">
-                Collaboratively envisioneer user friendly supply chains and
-                cross unit imperative. Authoritativel fabricate competitive
-                resource and holistic. Holisticly restore real time resources
-                whereas standardized networks.
+                Empower your business with unparalleled IT expertise. Our great
+                IT skills drive innovation, streamline processes, and deliver
+                customized solutions that elevate your digital transformation.
+                Partner with us to unlock your full potential.
               </p>
               <div className="py-5">
                 <h1 className="text-sm font-bold text-center">
@@ -78,7 +78,7 @@ const Skills = () => {
             </div>
             <Image
               src="/vector2.svg"
-              className="drop-shadow-md"
+              className="drop-shadow-md hover:scale-105 duration-300"
               width={600}
               height={500}
               alt="Picture of about vector"
