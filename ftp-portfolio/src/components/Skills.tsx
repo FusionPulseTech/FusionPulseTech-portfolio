@@ -24,54 +24,54 @@ const Skills = () => {
                 Partner with us to unlock your full potential.
               </p>
               <div className="py-5">
-                <h1 className="text-sm font-bold text-center">
-                  Business Strategy
-                </h1>
-                <div className="bg-gray-100 rounded-xl shadow-sm overflow-hidden p-1">
-                  <div className="relative h-4 flex items-center justify-center">
+                <div className="flex items-center justify-between px-2">
+                  <h1 className="text-sm font-bold text-center">
+                    Business Strategy
+                  </h1>
+                  <p className="text-sm font-medium">85%</p>
+                </div>
+                <div className="bg-white rounded-xl shadow-sm overflow-hidden p-1">
+                  <div className="relative h-1 flex items-center justify-center">
                     <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[85%] bg-[#684DF4]"></div>
-                    <div className="relative text-white font-medium text-sm">
-                      85%
-                    </div>
                   </div>
                 </div>
               </div>
               <div>
-                <h1 className="text-sm font-bold text-center">
-                  Softwer Development
-                </h1>
-                <div className="bg-gray-100 rounded-xl shadow-sm overflow-hidden p-1">
-                  <div className="relative h-4 flex items-center justify-center">
+                <div className="flex items-center justify-between px-2">
+                  <h1 className="text-sm font-bold text-center">
+                    Softwer Development
+                  </h1>
+                  <p className="text-sm font-medium">95%</p>
+                </div>
+                <div className="bg-white rounded-xl shadow-sm overflow-hidden p-1">
+                  <div className="relative h-1 flex items-center justify-center">
                     <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[95%] bg-[#684DF4]"></div>
-                    <div className="relative text-white font-medium text-sm">
-                      95%
-                    </div>
                   </div>
                 </div>
               </div>
               <div className="py-5">
-                <h1 className="text-sm font-bold text-center">
-                  Cyber Security
-                </h1>
-                <div className="bg-gray-100 rounded-xl shadow-sm overflow-hidden p-1">
-                  <div className="relative h-4 flex items-center justify-center">
+                <div className="flex items-center justify-between px-2">
+                  <h1 className="text-sm font-bold text-center">
+                    Cyber Security
+                  </h1>
+                  <p className="text-sm font-medium">80%</p>
+                </div>
+                <div className="bg-white rounded-xl shadow-sm overflow-hidden p-1">
+                  <div className="relative h-1 flex items-center justify-center">
                     <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[80%] bg-[#684DF4]"></div>
-                    <div className="relative text-white font-medium text-sm">
-                      80%
-                    </div>
                   </div>
                 </div>
               </div>
               <div className="pb-5">
-                <h1 className="text-sm font-bold text-center">
-                  Artificial Intelligence
-                </h1>
-                <div className="bg-gray-100 rounded-xl shadow-sm overflow-hidden p-1">
-                  <div className="relative h-4 flex items-center justify-center">
+                <div className="flex items-center justify-between px-2">
+                  <h1 className="text-sm font-bold text-center">
+                    Artificial Intelligence
+                  </h1>
+                  <p className="text-sm font-medium">90%</p>
+                </div>
+                <div className="bg-white rounded-xl shadow-sm overflow-hidden p-1">
+                  <div className="relative h-1 flex items-center justify-center">
                     <div className="absolute top-0 bottom-0 left-0 rounded-lg w-[90%] bg-[#684DF4]"></div>
-                    <div className="relative text-white font-medium text-sm">
-                      90%
-                    </div>
                   </div>
                 </div>
               </div>

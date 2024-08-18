@@ -136,11 +136,11 @@ const Team = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-row flex-wrap justify-between">
+          <div className="flex flex-row flex-wrap justify-between lg:px-32">
             {Data.map((singleData) => (
               <div
                 key={singleData.id}
-                className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 bg-white text-gray-800 shadow-lg"
+                className="flex flex-col justify-center w-full px-8 mx-6 my-10 text-center rounded-md md:w-96 lg:w-80 xl:w-64 bg-white text-gray-800 shadow-lg"
               >
                 <Image
                   src={singleData.img}

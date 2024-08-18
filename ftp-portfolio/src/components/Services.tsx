@@ -3,52 +3,49 @@ import { LiaVectorSquareSolid } from "react-icons/lia";
 import { FaArrowRight } from "react-icons/fa6";
 import Image from "next/image";
 
-
-
 const Services = () => {
-
   const services = [
     {
       id: "1",
       title: "Custom Software Development",
       description:
         "Tailored software solutions designed to meet specific business requirements. Application development for web, mobile, and desktop platforms.",
-        img: "https://i.ibb.co/QP1wJCQ/Custom-Software-Development.jpg"
+      img: "https://i.ibb.co/QP1wJCQ/Custom-Software-Development.jpg",
     },
     {
       id: "2",
       title: "Website Development",
       description:
         "Designing and developing responsive, user-friendly websites.E-commerce solutions and content management systems (CMS).",
-        img: "https://i.ibb.co/HPjtFpF/website-design.jpg"
+      img: "https://i.ibb.co/HPjtFpF/website-design.jpg",
     },
     {
       id: "3",
       title: "Mobile Application Development",
       description:
         "Development of mobile apps for iOS, Android, and cross-platform solutions. App maintenance and updates.",
-        img: "https://i.ibb.co/qN7mjjS/Mobile-Application-Development.jpg"
+      img: "https://i.ibb.co/qN7mjjS/Mobile-Application-Development.jpg",
     },
     {
       id: "4",
       title: "Software Integration",
       description:
         "Integration of software systems and applications to streamline operations. API development and integration.",
-        img: "https://i.ibb.co/Rb8g1vz/Software-Integration.jpg"
+      img: "https://i.ibb.co/Rb8g1vz/Software-Integration.jpg",
     },
     {
       id: "5",
       title: "User Experience (UX) and User Interface (UI) Design",
       description:
         "Research and design services to enhance user experience. Prototyping and wireframing.",
-        img: "https://i.ibb.co/6mbzN7T/user-experience-interface-design.jpg"
+      img: "https://i.ibb.co/6mbzN7T/user-experience-interface-design.jpg",
     },
     {
       id: "6",
       title: "Maintenance and Domain-Hosting Support",
       description:
         "Ongoing support and maintenance for software applications. Bug fixes, updates, and feature enhancements.",
-        img: "https://i.ibb.co/94pWVvG/website-hosting.jpg"
+      img: "https://i.ibb.co/94pWVvG/website-hosting.jpg",
     },
   ];
 
@@ -78,43 +75,43 @@ const Services = () => {
 
           {/* card */}
 
-          <div>
-            <div className="relative py-12 sm:px-6 lg:pt-16">
-              <div className="relative mx-auto max-w-7xl">
-                <div className="grid max-w-lg gap-5 mx-auto md:grid-cols-2 md:max-w-none lg:grid-cols-3 lg:max-w-none">
-                  {services.map((service) => (
-                    <div
-                      key={service.id}
-                      className="flex flex-col overflow-hidden rounded-lg shadow-lg"
-                    >
-                      <div className="flex-shrink-0 overflow-hidden">
-                        <Image
-                          src={service.img}
-                          width={500}
-                          height={500}
-                          alt="Picture of services card"
-                          className="hover:scale-110 duration-300"
-                        />
+          <div className="relative py-12 sm:px-6 lg:pt-16">
+            <div className="relative mx-auto max-w-7xl">
+              <div className="grid max-w-lg gap-5 mx-auto md:grid-cols-2 md:max-w-none lg:grid-cols-3 lg:max-w-none">
+                {services.map((service) => (
+                  <div
+                    key={service.id}
+                    className="flex flex-col overflow-hidden rounded-lg shadow-lg"
+                  >
+                    <div className="flex-shrink-0 overflow-hidden">
+                      <Image
+                        src={service.img}
+                        width={500}
+                        height={500}
+                        alt="Picture of services card"
+                        className="h-56 object-cover hover:scale-110 duration-300"
+                      />
+                    </div>
+                    <div className="flex flex-col justify-between flex-1 p-6 bg-white">
+                      <div className="flex-1 text-center">
+                        <a href="#" className="block mt-2">
+                          <p className="text-xl font-semibold text-neutral-600">
+                            {service.title}
+                          </p>
+                          <p className="mt-3 text-base text-gray-500">
+                            {service.description}
+                          </p>
+                        </a>
                       </div>
-                      <div className="flex flex-col justify-center flex-1 p-3 bg-white">
-                        <div className="flex-1 text-center">
-                          <a href="#" className="block mt-2">
-                            <p className="text-xl font-semibold text-gray-900">
-                              {service.title}
-                            </p>
-                            <p className="mt-3 text-base text-gray-500">
-                              {service.description}
-                            </p>
-                          </a>
-                          <button className=" text-white bg-indigo-500 border-0 mt-3 py-2 px-4 focus:outline-none hover:bg-gray-900 transition-colors duration-700 rounded">
-                            READ MORE{" "}
-                            <FaArrowRight className="inline-flex mb-1 ml-1" />
-                          </button>
-                        </div>
+                      <div className="flex items-center justify-center mt-6">
+                        <button className=" text-white bg-indigo-500 border-0 mt-3 py-2 px-4 focus:outline-none hover:bg-gray-900 transition-colors duration-700 rounded">
+                          READ MORE{" "}
+                          <FaArrowRight className="inline-flex mb-1 ml-1" />
+                        </button>
                       </div>
                     </div>
-                  ))}
-                </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
