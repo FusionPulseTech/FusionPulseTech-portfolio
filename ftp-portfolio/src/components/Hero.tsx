@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <section id="home" className="bg-[#F0F4FF] text-gray-800 flex items-center">
-        <div className="rotate-180 [writing-mode:_vertical-lr] p-5 hidden lg:block">
+        <div className="rotate-180 [writing-mode:_vertical-lr] p-2 hidden lg:block">
           <div className="text-sm font-medium">
             <Link
               href=" https://www.facebook.com/profile.php?id=61563866074580"
@@ -58,9 +58,9 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          <div className="flex items-center justify-center py-6 lg:py-5 my-12 lg:my-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+          <div className="flex items-center justify-center py-6 lg:py-5 my-16 lg:my-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
             <Image
-              src="/strategy-development.png"
+              src="/development.png"
               className="drop-shadow-md hover:scale-105 duration-300"
               width={500}
               height={500}

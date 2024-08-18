@@ -53,27 +53,34 @@ const Project = () => {
             {productList.map((product) => (
               <div
                 key={product.id}
-                className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center"
+                className="flex flex-col overflow-hidden rounded-lg shadow-lg"
               >
                 <div className="flex-shrink-0 overflow-hidden">
                   <Image
                     src={product.img}
                     width={500}
                     height={500}
-                    alt="Picture of product card"
-                    className="hover:scale-110 duration-300"
+                    alt="Picture of services card"
+                    className="object-cover hover:scale-110 duration-300 h-56"
                   />
                 </div>
-                <div className="text-center py-8 sm:py-6">
-                  <p className="text-xl text-gray-700 font-bold mb-2">
-                    {product.title}
-                  </p>
-                  <p className="text-base text-gray-400 font-normal">
-                    {product.description}
-                  </p>
-                  <button className=" text-white bg-indigo-500 border-0 mt-3 py-2 px-4 focus:outline-none hover:bg-gray-900 transition-colors duration-700 rounded">
-                    VIEW MORE <FaArrowRight className="inline-flex mb-1 ml-1" />
-                  </button>
+                <div className="flex flex-col justify-between flex-1 p-6 bg-white">
+                  <div className="flex-1 text-center">
+                    <a href="#" className="block mt-2">
+                      <p className="text-xl font-semibold text-neutral-600">
+                        {product.title}
+                      </p>
+                      <p className="mt-3 text-base text-gray-500">
+                        {product.description}
+                      </p>
+                    </a>
+                  </div>
+                  <div className="flex items-center justify-center mt-6">
+                    <button className=" text-white bg-indigo-500 border-0 mt-3 py-2 px-4 focus:outline-none hover:bg-gray-900 transition-colors duration-700 rounded">
+                      VIEW MORE{" "}
+                      <FaArrowRight className="inline-flex mb-1 ml-1" />
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}
