@@ -58,6 +58,7 @@ const Hero = () => {
               </Link>
             </div>
           </div>
+          <div className="hidden lg:block">
           <div className="flex items-center justify-center py-6 lg:py-5 my-16 lg:my-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
             <Image
               src="/development.png"
@@ -66,6 +67,7 @@ const Hero = () => {
               height={500}
               alt="Picture of the author"
             />
+          </div>
           </div>
         </div>
       </section>

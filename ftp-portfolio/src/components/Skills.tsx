@@ -28,7 +28,7 @@ const Skills = () => {
                   <h1 className="text-sm font-bold text-center">
                     Business Strategy
                   </h1>
-                  <p className="text-sm font-medium">85%</p>
+                  <p className="text-sm font-medium pr-[70px] lg:pr-24">85%</p>
                 </div>
                 <div className="bg-white rounded-xl shadow-sm overflow-hidden p-1">
                   <div className="relative h-1 flex items-center justify-center">
@@ -41,7 +41,7 @@ const Skills = () => {
                   <h1 className="text-sm font-bold text-center">
                     Softwer Development
                   </h1>
-                  <p className="text-sm font-medium">95%</p>
+                  <p className="text-sm font-medium pr-7 lg:pr-9">95%</p>
                 </div>
                 <div className="bg-white rounded-xl shadow-sm overflow-hidden p-1">
                   <div className="relative h-1 flex items-center justify-center">
@@ -54,7 +54,7 @@ const Skills = () => {
                   <h1 className="text-sm font-bold text-center">
                     Cyber Security
                   </h1>
-                  <p className="text-sm font-medium">80%</p>
+                  <p className="text-sm font-medium pr-[90px] lg:pr-[120px]">80%</p>
                 </div>
                 <div className="bg-white rounded-xl shadow-sm overflow-hidden p-1">
                   <div className="relative h-1 flex items-center justify-center">
@@ -67,7 +67,7 @@ const Skills = () => {
                   <h1 className="text-sm font-bold text-center">
                     Artificial Intelligence
                   </h1>
-                  <p className="text-sm font-medium">90%</p>
+                  <p className="text-sm font-medium pr-12 lg:pr-16">90%</p>
                 </div>
                 <div className="bg-white rounded-xl shadow-sm overflow-hidden p-1">
                   <div className="relative h-1 flex items-center justify-center">
