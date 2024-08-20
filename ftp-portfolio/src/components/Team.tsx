@@ -67,7 +67,7 @@ const Team = () => {
       name: "MD. ABDUR RAHMAN",
       role: "QA & Digital Marketing Executive",
       email: "mabrahman44@gmail.com",
-      linkedin: "https://www.linkedin.com/md-abdur-rahman-723313248/",
+      linkedin: "https://www.linkedin.com/in/md-abdur-rahman-ict-iu/",
       github: "https://github.com/abdurrahmaniu",
       img: "https://i.ibb.co/YDxCfNX/Md-abdur-rahman-photo.jpg",
     },
