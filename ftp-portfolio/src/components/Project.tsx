@@ -71,7 +71,7 @@ const Project = () => {
                         {product.title}
                       </p>
                       <p className="mt-3 text-base text-gray-500">
-                        {product.description}
+                        {product.description.length < 130? product.description : product.description.slice(0, 130) + "..."}
                       </p>
                     </a>
                   </div>

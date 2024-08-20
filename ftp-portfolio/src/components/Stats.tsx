@@ -7,9 +7,9 @@ const Stats = () => {
   return (
     <>
       <section className="bg-[#694FF4]">
-        <div className="container mx-auto max-w-7xl grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4 py-20">
+        <div className="container mx-auto max-w-7xl grid gap-6 grid-cols-2 xl:grid-cols-4 py-20">
           <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 text-white">
-            <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-white shadow-xl shadow-gray-900">
+            <div className="flex justify-center items-center p-2 rounded-lg sm:p-4 bg-white shadow-xl shadow-gray-900">
               <FaShoppingCart className="h-9 w-9 text-[#694FF4] hover:rotate-180 duration-300" />
             </div>
             <div className="flex flex-col justify-center align-middle">
@@ -18,7 +18,7 @@ const Stats = () => {
             </div>
           </div>
           <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 text-white">
-            <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-white shadow-xl shadow-gray-900">
+            <div className="flex justify-center items-center p-2 rounded-lg sm:p-4 bg-white shadow-xl shadow-gray-900">
               <FaRegSmile className="h-9 w-9 text-[#694FF4] hover:rotate-180 duration-300" />
             </div>
             <div className="flex flex-col justify-center align-middle">
@@ -27,7 +27,7 @@ const Stats = () => {
             </div>
           </div>
           <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 text-white">
-            <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-white shadow-xl shadow-gray-900">
+            <div className="flex justify-center items-center p-2 rounded-lg sm:p-4 bg-white shadow-xl shadow-gray-900">
               <BsSpeedometer className="h-9 w-9 text-[#694FF4] hover:rotate-180 duration-300" />
             </div>
             <div className="flex flex-col justify-center align-middle">
@@ -36,7 +36,7 @@ const Stats = () => {
             </div>
           </div>
           <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 text-white">
-            <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-white shadow-xl shadow-gray-900">
+            <div className="flex justify-center items-center p-2 rounded-lg sm:p-4 bg-white shadow-xl shadow-gray-900">
               <MdTouchApp className="h-9 w-9 text-[#694FF4] hover:rotate-180 duration-300" />
             </div>
             <div className="flex flex-col justify-center align-middle">

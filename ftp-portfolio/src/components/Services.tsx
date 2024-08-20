@@ -99,7 +99,7 @@ const Services = () => {
                             {service.title}
                           </p>
                           <p className="mt-3 text-base text-gray-500">
-                            {service.description}
+                            {service.description.length < 130? service.description : service.description.slice(0, 130) + "..."}
                           </p>
                         </a>
                       </div>

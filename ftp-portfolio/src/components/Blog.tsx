@@ -42,7 +42,7 @@ const Blog = () => {
 
   return (
     <>
-      <section id="projects" className="text-gray-900 body-font bg-[#F5F5F5]">
+      <section id="blog" className="text-gray-900 body-font bg-[#F5F5F5]">
         <div className="container py-24 mx-auto max-w-7xl px-5 lg:px-0">
           <div className="mx-auto px-0">
             <p className="leading-3 text-xl text-center text-[#684DF4]">
