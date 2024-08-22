@@ -31,7 +31,7 @@ const Team = () => {
       name: "Anamul Haque",
       role: "Software Engineer",
       email: "anamul.ice14@gmail.com",
-      linkedin: "www.linkedin.com/in/md-anamul-haque94",
+      linkedin: "https://www.linkedin.com/in/md-anamul-haque94",
       github: "https://github.com/anamul94",
       img: "https://i.ibb.co/TBHWXLs/anmul.jpg",
     },
